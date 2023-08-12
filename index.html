@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Niramit&family=Audiowide&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="manual">
+      <button id="exit-manual">Got it!</button>
+      <img id="manual-difficulty" src="assets/manual_difficulty.png" alt="" />
+      <img id="manual-help" src="assets/manual_help.png" alt="" />
+      <img id="manual-muscle" src="assets/manual_muscle.png" alt="" />
+      <img id="manual-type" src="assets/manual_type.png" alt="" />
+    </div>
+    <div id="question-container">
+      <p data-hover="Check out my GitHub">?</p>
+    </div>
+    <p id="title">Exercise App</p>
+    <div class="main-container">
+      <div class="input-container">
+        <div class="difficulty-container">
+          <input
+            type="range"
+            min="0"
+            max="3"
+            value="0"
+            step="0.05"
+            id="difficulty-input"
+          />
+        </div>
+        <div class="type-container">
+          <select name="" id="type-selector">
+            <option value="default">-exercise type-</option>
+            <option value="cardio">cardio</option>
+            <option value="olympic_weightlifting">olympic weightlifting</option>
+            <option value="plyometrics">plyometrics</option>
+            <option value="powerlifting">powerlifting</option>
+            <option value="strength">strength</option>
+            <option value="stretching">stretching</option>
+            <option value="strongman">strongman</option>
+          </select>
+        </div>
+      </div>
+      <div class="result-container">
+        <p id="result"></p>
+      </div>
+    </div>
+
+    <div id="muscle-container">
+      <img id="main-muscle" src="assets/muscle_other.png" alt="" />
+      <img
+        class="sub-muscles"
+        id="abdominals"
+        src="assets/muscle_abdominals.png"
+        alt=""
+      />
+      <img
+        class="sub-muscles"
+        id="abductors"
+        src="assets/muscle_abductors.png"
+        alt=""
+      />
+      <img
+        class="sub-muscles"
+        id="adductors"
+        src="assets/muscle_adductors.png"
+        alt=""
+      />
+      <img
+        class="sub-muscles"
+        id="biceps"
+        src="assets/muscle_biceps.png"
+        alt=""
+      />
+      <img
+        class="sub-muscles"
+        id="calves"
+        src="assets/muscle_calves.png"
+        alt=""
+      />
+      <img
+        class="sub-muscles"
+        id="chest"
+        src="assets/muscle_chest.png"
+        alt=""
+      />
+      <img
+        class="sub-muscles"
+        id="forearms"
+        src="assets/muscle_forearms.png"
+        alt=""
+      />
+      <img
+        class="sub-muscles"
+        id="glutes"
+        src="assets/muscle_glutes.png"
+        alt=""
+      />
+      <img
+        class="sub-muscles"
+        id="hamstrings"
+        src="assets/muscle_hamstrings.png"
+        alt=""
+      />
+      <img class="sub-muscles" id="lats" src="assets/muscle_lats.png" alt="" />
+      <img
+        class="sub-muscles"
+        id="lower_back"
+        src="assets/muscle_lowerback.png"
+        alt=""
+      />
+      <img
+        class="sub-muscles"
+        id="middle_back"
+        src="assets/muscle_middleback.png"
+        alt=""
+      />
+      <img class="sub-muscles" id="neck" src="assets/muscle_neck.png" alt="" />
+      <img
+        class="sub-muscles"
+        id="quadriceps"
+        src="assets/muscle_quadriceps.png"
+        alt=""
+      />
+      <img
+        class="sub-muscles"
+        id="triceps"
+        src="assets/muscle_triceps.png"
+        alt=""
+      />
+    </div>
+  </body>
+</html>
