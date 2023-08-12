@@ -249,7 +249,7 @@ input[type="range"]:focus::-moz-range-thumb {
 
 #manual {
   background-color: rgba(193, 193, 193, 0.774);
-  width: 1400px;
+  width: 1450px;
   height: 705px;
   position: absolute;
   z-index: 2;
